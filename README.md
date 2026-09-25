@@ -1,32 +1,18 @@
 # DataPreprocessing
-# Data Preprocessing
+# Employee Data Preprocessing
 
 ## Overview
-This assignment is about preprocessing an employee dataset using Python.
+This assignment demonstrates the complete data preprocessing workflow on an employee dataset using Python. The objective was to clean, transform, and prepare the dataset for machine learning and data analysis by handling missing values, encoding categorical variables, and scaling numerical features
 
-## Dataset
-- 148 rows
-- 6 columns
-- Company
-- Age
-- Salary
-- Place
-- Country
-- Gender
-
-## Tasks Completed
-- Explored the dataset
-- Found unique values
-- Performed statistical analysis
-- Renamed columns
-- Handled missing values
-- Removed duplicate rows
-- Replaced age 0 with NaN
-- Checked for outliers
-- Filtered data based on age and salary
-- Created charts
-- Applied data encoding
-- Applied feature scaling
+## Topics Covered
+- Data Exploration
+- Data Cleaning
+- Missing Value Handling
+- Duplicate Removal
+- Outlier Detection
+- Data Analysis
+- Data Encoding
+- Feature Scaling
 
 ## Tools Used
 - Python
@@ -37,9 +23,28 @@ This assignment is about preprocessing an employee dataset using Python.
 - Scikit-learn
 - Jupyter Notebook
 
+## Preprocessing Steps
+- Explored the employee dataset.
+- Checked unique values and basic statistics.
+- Renamed columns.
+- Handled missing values.
+- Removed duplicate rows.
+- Replaced invalid age values.
+- Checked for outliers.
+- Filtered and visualized the data.
+- Applied One-Hot Encoding and Label Encoding.
+- Applied StandardScaler and MinMaxScaler.
 ## File
 - `DataPreprocessing.ipynb`
 -  `Employee.csv`
+
+## Learning Outcome
+Learned the basic steps of data preprocessing and prepared the data for machine learning.
+
+
+
+
+
 
 ## Learning Outcome
 Learned the basic steps of data exploration, data cleaning, data analysis, encoding, and feature scaling.
